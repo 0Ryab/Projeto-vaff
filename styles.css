@@ -1,6 +1,10 @@
 @font-face {
   font-family: Courgette;
   src: url(font/Courgette-Regular.ttf);
+  font-family: Roboto;
+  src: url(font/Roboto-Light.ttf);
+  font-family: Mochiy;
+  src: url(font/MochiyPopOne-Regular.ttf);
 }
 * {
   box-sizing: border-box;
@@ -24,6 +28,7 @@ header {
   font-weight: 500;
   color: #000000;
   text-decoration: none;
+  font-size: 36px;
 }
 
 .nav__links {
@@ -43,14 +48,23 @@ header {
   color: #ffa800;
 }
 
-.container {
-  background-color: white;
-  display: contents;
+h1 {
+  display: flex;
+  font-family: Mochiy;
+  color: #ffa800;
 }
 
-.circulo {
-  background-color: #ffa800;
-  height: 1000px;
-  width: 1000px;
-  border-radius: 50%;
+p {
+  display: flex;
+  font-family: Roboto;
+  font-size: 26px;
+}
+
+footer {
+  background-color: #222222;
+  padding: 16px;
+}
+
+.rodape p {
+  font-size: 16px;
 }
